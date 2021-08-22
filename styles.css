@@ -35,6 +35,7 @@ body {
 .container1{
   background-color: #3c3836;
   padding: 1rem;
+  position: fixed;
 }
 
 .container2{
