@@ -88,7 +88,7 @@ margin-bottom: 1rem;
   font-weight: 600;
   color: #ffffff;
 
-  background: #1d2021;
+  background: #fb4934;
   padding: 0.625rem;
   text-decoration: none;
   display: block;
@@ -103,7 +103,7 @@ margin-bottom: 1rem;
 }
 
 .linkbtn:hover {
-  background: #fabd2f;
+  background: #1d2021;
   text-decoration: none;
 }
 
