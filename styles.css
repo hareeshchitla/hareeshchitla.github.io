@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url("fonts-hareesh/Merriweather/Merriweather-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts-hareesh/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Sacramento";
+  src: url("fonts-hareesh/Sacramento/Sacramento-Regular.ttf");
+}
+
+
+/************ TAG SELECTORS ***************/
+
+
+body {
+  background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+
+  text-align: center;
+  margin: 0;
+
+}
+
+
+
+/************ CLASS SELECTORS ***************/
+
+.linkdiv{
+
+    height:15rem;
+    position: relative;
+
+}
+
+.profile-pic {
+  width: 9rem;
+  border-radius: 1rem;
+}
+
+.container1{
+  background-color: #000000;
+
+  padding: 1rem;
+
+}
+
+.container2{
+  padding: 2rem;
+    background: linear-gradient(338.83deg,#f8c6ff -3.41%,rgba(255,196,255,0) 52.31%),#ffeec4;
+
+
+}
+
+.container3{
+   background-color: #000000;
+
+  padding: 2rem;
+
+}
+
+.name{
+  /*font-family: Montserrat, sans-serif;*/
+  font-family: 'Roboto Slab', serif;
+  font-size: 400%;
+  font-weight: 600;
+  color: #FEFAF6;
+
+}
+
+.linkgroup{
+
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+
+}
+
+
+.links{
+  background-color: #665c54;
+padding: 2.5rem;
+width: 25%;
+margin-left: auto;
+margin-right: auto;
+-webkit-border-radius: 6;
+-moz-border-radius: 6;
+border-radius: 0.375rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+}
+
+.linkbtn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 0.375rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 150%;
+  font-weight: 600;
+  color: #ffffff;
+
+ background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  padding: 0.625rem;
+
+  text-decoration: none;
+  display: block;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  word-wrap: break-word;
+
+
+}
+
+.linkbtn:hover {
+  background: #1d2021;
+  text-decoration: none;
+}
+
+.linktext{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 200%;
+  color: #ffffff;
+
+}
+
+.linkimage{
+
+
+  width: 15rem;
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+
+
+
+
+
+}
+
+
+.footerlink{
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 2rem;
+  color: #665c54;
+
+}
+
+.footerlink:hover {
+  color: #fabd2f;
+}
+
+.footerlink2{
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #665c54;
+
+}
+
+.footerimg{
+  width: 5rem;
+}
+
+
+
+/************ ID SELECTORS ***************/
+
+
+/***********dark mode switch***************/
